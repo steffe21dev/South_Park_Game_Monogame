@@ -105,7 +105,7 @@ namespace DickGame
             spriteBatch.Draw(background, mainframe, Color.White);
 
 
-            Rectangle destinationRectangle = new Rectangle((int)ship.pos.X, (int)ship.pos.Y, 50, 50);
+            Rectangle destinationRectangle = new Rectangle((int)ship.pos.X, (int)ship.pos.Y, 60, 50);
             spriteBatch.Draw(ship_tex,destinationRectangle, Color.White);
 
 
